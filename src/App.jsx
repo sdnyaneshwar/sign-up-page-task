@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import SignUp from './components/SignUp';
+import SignUp from './pages/SignUp';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import UserCard from './components/UserCard';
-import About from './components/About';
-import Contact from './components/Contact';
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
